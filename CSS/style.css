@@ -57,7 +57,7 @@ p span {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 5px;
-  border-bottom-left-radius: 30%;
+  border-bottom-left-radius: 25%;
 }
 
 header {
@@ -137,7 +137,7 @@ nav {
 
 .content p {
   text-align: end;
-  padding-left: 25px;
+  padding-left: 10%;
 }
 
 footer {
