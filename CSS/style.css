@@ -63,12 +63,15 @@ p span {
 header {
   grid-area: h;
   background-color: #eee;
-  font-size: 36px;
-  font-weight: 800;
-  font-style: italic;
   display: grid;
   place-items: center;
   padding: 0;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 800;
+  font-style: italic;
 }
 
 .subheader {
@@ -134,6 +137,7 @@ nav {
 
 .content p {
   text-align: end;
+  padding-left: 25px;
 }
 
 footer {
@@ -167,6 +171,7 @@ footer {
 
   ol {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -199,6 +204,7 @@ footer {
   
   ol {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
