@@ -84,6 +84,11 @@ h1 {
   font-style: italic;
 }
 
+hr {
+  width: 50%;
+  border: 1px solid black;
+}
+
 h4 {
   text-align: end;
 }
@@ -94,9 +99,12 @@ h4 {
 }
 
 nav {
+  display: flex;
   grid-area: n;
   background: linear-gradient(to right, rgb(117, 192, 253), rgba(117, 192, 253, 0.25));
   font-size: 24px;
+  justify-content: center;
+  align-items: center;
 }
 
 .navlist {
