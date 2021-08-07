@@ -49,6 +49,16 @@
   width: 100%;
 }
 
+#portfolio-link {
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#portfolio-link:hover {
+  text-decoration: underline;
+  color:rgb(117, 192, 253);
+}
+
 p {
   overflow: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -91,6 +101,7 @@ hr {
 
 h4 {
   text-align: end;
+  margin: 10px;
 }
 
 .subheader {
@@ -121,12 +132,11 @@ nav {
 .list-item > a {
   text-decoration: none;
   color: inherit;
+  transition: color, 1s;
 }
 
 .list-item:hover {
-  text-decoration: underline;
   color: purple;
-  font-style: italic;
 }
 
 #archive {
@@ -141,6 +151,12 @@ nav {
   width: auto; 
   display: grid;
   place-content: center;
+}
+
+.content p {
+  text-align: end;
+  padding-left: 10%;
+  font-size: 18px;
 }
 
 .content1 {
@@ -161,6 +177,11 @@ nav {
 .content4 {
   order: 7;
   background: linear-gradient(to right, rgb(255, 255, 224), rgba(255, 255, 224, 0.25));
+}
+
+.content5 {
+  order: 6;
+  background: linear-gradient(to right, rgb(255, 160, 122), rgba(255, 160, 122, 0.25));
 }
 
 .goals {
@@ -195,6 +216,10 @@ nav {
   order: 1;
 }
 
+.vitals > p {
+  font-size: 20px;
+}
+
 .how-it-started {
   order: 1;
 }
@@ -205,10 +230,19 @@ nav {
 .where-its-headed {
   order: 3;
 }
-.content p {
-  text-align: end;
-  padding-left: 10%;
+
+#email-box {
+  order: 1;
 }
+
+#phone-box {
+  order: 2;
+}
+
+#address-box {
+  order: 3;
+}
+
 
 footer {
   grid-area: f;
