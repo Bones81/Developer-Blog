@@ -156,7 +156,8 @@ nav {
 .content p {
   text-align: end;
   padding-left: 10%;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.2em;
 }
 
 .content1 {
@@ -182,6 +183,11 @@ nav {
 .content5 {
   order: 6;
   background: linear-gradient(to right, rgb(255, 160, 122), rgba(255, 160, 122, 0.25));
+}
+
+.content6 {
+  order: 5;
+  background: linear-gradient(to right, rgb(144, 238, 144), rgba(144, 238, 144, 0.25));
 }
 
 .goals {
